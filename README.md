@@ -13,4 +13,4 @@
   - CANN Toolkit: 8.0.0.beta1 / 8.1RC1beta1
   - Python 3.9
 
----
+git clone
