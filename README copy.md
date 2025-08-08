@@ -1,10 +1,12 @@
 # 🧠Orange-Pi Multimodal Korean  
 ## 基于昇腾 AI 的多模态韩语应用
 
-利用 **“万卷·丝路”** 开源图文语料库，对 **Qwen2-VL-2B以及Qwen2.5-VL-3B** 模型在服务器端进行 LoRA 微调，并基于mindspore、mindnlp和gradio部署于 **OrangePi AIpro**（20 TOPS Ascend SoC）。项目提供：
+利用 **“万卷·丝路”** 开源图文语料库，对 **Qwen2-VL-2B以及Qwen2.5-VL-3B** 模型在服务器端进行 LoRA 微调图文对话模型，基于韩语开源预料库，进行专业名词提取并且完成了对qwen2.5-1.5B模型专业术语问答微调，并基于mindspore、mindnlp和gradio部署于 **OrangePi AIpro**（20 TOPS Ascend SoC）。项目提供：
 
 1. 🖼️+📝**图文联合问答** 微调与部署流程（基于LLamafactory微调）
-2. 📚🔍**专业术语问答** 微调与部署流程（基于原生transformer+Peft库微调）
+2. 📚🔍**专业术语问答** 微调与部署流程（基于原生transformer+Peft库微调
+
+相关微调后模型已上传到modelscope：https://www.modelscope.cn/profile/ywsyah
 
 > 适用于端侧低资源小语种的 AI 场景，并且学习使用llamafactory框架微调和原生transformer+Peft进行微调。
 
